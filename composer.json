@@ -1,0 +1,13 @@
+{
+    "name": "tanmuhittin/rolemanager",
+    "description": "Manage role permissions for all routes",
+    "type": "laravel-role-management",
+    "authors": [
+        {
+            "name": "Muhittin",
+            "email": "tanmuhittin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
