@@ -15,8 +15,13 @@ class RolemanagerServiceProvider extends ServiceProvider {
 		$this->app->make('Tanmuhittin\Rolemanager\RoleController');
 		$this->publishes([
 			__DIR__.'/views' => base_path('resources/views/pages/admin'),
+		],'views');
+		$this->publishes([
 			__DIR__.'/assets' => public_path('/'),
-		]);
+		], 'assets');
+		$this->publishes([
+			__DIR__.'/migrations' => database_path('migrations')
+		], 'migrations');
 	}
 
 	/**
