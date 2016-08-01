@@ -50,5 +50,4 @@ The package has some javascript dependencies too. These are jquery, angularjs ng
 	<script src="/bower_components/angular-xeditable/dist/js/xeditable.js"></script>
 ```
 
-	
-	
+### Any pull request is appreciated :) have fun
