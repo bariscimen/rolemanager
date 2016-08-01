@@ -22,6 +22,9 @@ class RolemanagerServiceProvider extends ServiceProvider {
 		$this->publishes([
 			__DIR__.'/migrations' => database_path('migrations')
 		], 'migrations');
+		$this->publishes([
+			__DIR__.'/models' => base_path('app')
+		], 'models');
 	}
 
 	/**

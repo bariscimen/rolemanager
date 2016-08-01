@@ -1,7 +1,9 @@
 <?php namespace Tanmuhittin\Rolemanager;
 
 use App\Http\Controllers\Controller;
+use App\Role;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Route;
 
 class RoleController extends Controller
 {
